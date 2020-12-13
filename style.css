@@ -1,0 +1,37 @@
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+  
+}
+ .hexBtn {
+   margin: 0 auto;
+   display: block;
+   border: none;
+   color: white;
+   border: 1px solid #ccc;
+   padding: 8px 10px;
+   background: #666;
+   outline: none;
+   transition: all 0.2s linear;
+   user-select: none;
+   border-radius: 16px;
+ }
+ .hexBtn:active {
+   background: #ccc;
+   color: #42445A;
+ }
+ .hexColor {
+   position: absolute;
+   width:100px;
+   color: #000;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   font-weight: 700;
+   height: 70px;
+   top: 300px;
+   left: 127px;
+ }
